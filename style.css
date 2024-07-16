@@ -1,0 +1,30 @@
+/* Ensuring the logo does not fill the whole page and is properly centered */
+.logo {
+    max-width: 1000px;
+    width: 100%;
+    height: auto;
+    margin: 5 auto; /* Center horizontally */
+    display: block; /* Ensures it's treated as a block element */
+  }
+  
+  /* Add padding to the body to ensure the fixed navbar doesn't overlap content */
+  body {
+    padding-top: 5px;
+  }
+  
+  /* Reset padding and margin for jumbotron */
+  .jumbotron, .header-custom {
+    background: #f8f9fa;
+    
+    margin: 5; /* Remove default margin */
+  }
+  
+  /* Ensure container inside the jumbotron has no extra padding */
+  .jumbotron .container {
+    padding: 0;
+  }
+  
+  .portfolio-item {
+    margin-bottom: 30px;
+  }
+  
